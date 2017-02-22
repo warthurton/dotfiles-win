@@ -1,0 +1,3 @@
+%WinDir%\System32\cmd.exe -new_console:d:"%HomeDrive%%HomePath%"
+%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe -new_console:d:"%HomeDrive%%HomePath%"
+%SystemDrive%\Tools\Cygwin\bin\zsh.exe --login -i -new_console:C:"%SystemDrive%\Tools\Cygwin\Cygwin-Terminal.ico":d:"%SystemDrive%\Tools\Cygwin\bin"
